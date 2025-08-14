@@ -80,6 +80,13 @@ button {
     width: 120px;
 }
 
+.mid-container h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
 .image-placeholder {
     flex: 1; /* let it share space with the text */
     max-width: 500px; /* limit so it doesn't get huge */
@@ -94,7 +101,9 @@ button {
 .box {
     width: 150px;
     height: 150px;
-    border: 3px solid blue;
+    border: 3px solid rgb(0, 153, 255);
+    margin-bottom: 16px;
+    border-radius: 8px;
 }
 
 .boxes {
@@ -110,3 +119,9 @@ button {
     gap: 26px;
     padding: 48px;
 }
+
+.info-item p {
+    text-align: center;
+}
+
+
