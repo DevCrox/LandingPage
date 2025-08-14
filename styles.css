@@ -124,4 +124,48 @@ button {
     text-align: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 48px;
+}
 
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#author {
+    color: #1F2937;
+    font-weight: 900;
+    text-align: end;
+    font-size: 18px;
+}
+
+.call-to-action {
+    margin: 32px;
+    padding: 36px;
+    border-radius: 8px;
+    background-color: #006eff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action h3 {
+    font-weight: bold;
+
+}
+
+.call-to-action button {
+    border: 3px solid white;
+}
+
+footer {
+    padding: 32px;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+}
